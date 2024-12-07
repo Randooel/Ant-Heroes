@@ -34,7 +34,9 @@
   },
   "name":"Ant Hero",
   "resources":[
+    {"id":{"name":"oQueen","path":"objects/oQueen/oQueen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"sQueen","path":"sprites/sQueen/sQueen.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
