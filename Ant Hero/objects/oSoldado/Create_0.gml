@@ -1,5 +1,4 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-vidaMax = 5
-vidaAtual = vidaMax
+soldVidaMax = 15;
+soldVidaAtual = soldVidaMax;
+image_xscale = 0.1;
+image_yscale = 0.1;
