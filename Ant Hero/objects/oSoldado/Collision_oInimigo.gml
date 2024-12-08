@@ -11,4 +11,5 @@ if (other.object_index == oInimigo) {
 
 if (soldVidaAtual <= 0) {
     instance_destroy();
+	global.soldadosCriados -= 1;
 }

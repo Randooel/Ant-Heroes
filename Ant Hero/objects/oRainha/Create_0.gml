@@ -1,16 +1,10 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-
-global.vidaMax = 20;
+global.vidaMax = 50
 global.vidaAtual = global.vidaMax;
 
+global.pontuacaoAnterior = -1;
 global.pontuacao = 0;
 
-nivelRainha = 1;
-global.maxSoldados = nivelRainha * 5;
+global.maxSoldados = 5;
 global.soldadosCriados = 0;
 
-if (global.soldadosCriados < global.maxSoldados) {
-    var soldado = instance_create_layer(x, y, "Instances", oSoldado);
-    global.soldadosCriados += 1;
-}
+nivelRainha = 1;
