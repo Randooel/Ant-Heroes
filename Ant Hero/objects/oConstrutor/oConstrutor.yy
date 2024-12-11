@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oSoldado",
+  "%Name":"oConstrutor",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oInimigo","path":"objects/oInimigo/oInimigo.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oInimigo2","path":"objects/oInimigo2/oInimigo2.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oSoldado",
+  "name":"oConstrutor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSoldado1",
-    "path":"sprites/sSoldado1/sSoldado1.yy",
+    "name":"sConstrutor",
+    "path":"sprites/sConstrutor/sConstrutor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -12,7 +12,6 @@ if (global.tempo_para_criar <= 0 && global.inimigos_ativos < global.max_inimigos
     }
 
     instance_create_layer(posX, posY, "Instances", oInimigo);
-	instance_create_layer(posX, posY, "Instances", oInimigo2);
     global.inimigos_ativos += 1;
     global.tempo_para_criar = random_range(global.intervalo_min, global.intervalo_max);
 }
